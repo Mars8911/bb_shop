@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+html{
+    position: relative;
+    min-height: 100vh;
+}
+body{
+    margin-bottom: 60px;
+}
+nav.navbar{
+    margin-bottom: 40px;
+}
+footer.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #2d3748;
+    color:#eee;
+    height: 60px;
+    width: 100%;
+}
